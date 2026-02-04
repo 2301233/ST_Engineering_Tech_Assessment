@@ -31,7 +31,7 @@ export async function initDB() {
         post_id INTEGER NOT NULL CHECK (post_id > 0),
         csv_id  INTEGER NOT NULL CHECK (csv_id > 0),
         name    TEXT    NOT NULL,
-        email   TEXT    NOT NULL CHECK (email ~* '^[^@\s]+@[^@\s]+\.[^@\s]+$'),
+        email   TEXT    NOT NULL,
         body    TEXT    NOT NULL
       );
     `);
