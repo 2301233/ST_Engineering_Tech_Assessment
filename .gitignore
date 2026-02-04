@@ -1,0 +1,39 @@
+# Dependency directory
+Backend/node_modules
+Frontend/node_modules
+# Optional npm cache directory
+.npm
+# Optional REPL history
+.node_repl_history
+
+# Compiled TypeScript files
+# Typically, these are generated in a 'dist' or 'build' directory.
+# Adjust the path if you use a different output directory (e.g., /build or /output).
+/dist
+/build
+*.js.map        # Source map files
+*.d.ts          # Declaration files (if generated in source directory)
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Environment files
+.env
+.env.local
+
+# Coverage directory used by testing tools
+coverage/
+
+# OS and IDE-specific files
+.DS_Store       # macOS
+.vscode/        # VS Code configuration
+.vs/            # Visual Studio
+.idea/          # IntelliJ
