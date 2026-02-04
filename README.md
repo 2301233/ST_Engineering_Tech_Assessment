@@ -1,6 +1,6 @@
 How to Set Up:
 1. Open up command prompt in root folder of this project
-2. Run docker-compose up --build
+2. Run 'docker-compose up --build'
 3. Click on http://localhost:5173 to access the CSV Upload Website
 
 How to Run:
